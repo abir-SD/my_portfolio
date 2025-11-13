@@ -165,7 +165,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 83vh;
 }
 
 .section-pic-container {
@@ -196,6 +196,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .social-container {
@@ -259,4 +260,57 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+/*----------------- About Section Style -------------------*/
+
+#about {
+  position: relative;
+}
+
+.about-details-container,
+.about-containers {
+  display: flex;
+}
+
+.about-details-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background-color: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 175px;
+}
+
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
+.section-pic-container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
