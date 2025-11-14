@@ -433,3 +433,15 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+/*----------------- Footer Section Style -------------------*/
+
+footer{
+  margin: 0 1rem;
+  text-align: center;
+  height: 30vh;
+}
+
+footer p{
+ text-align: center;
+}
