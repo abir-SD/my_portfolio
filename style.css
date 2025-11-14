@@ -289,7 +289,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -7rem;
   bottom: 2.5rem;
 }
 
@@ -304,13 +304,52 @@ section {
   width: 175px;
 }
 
-.section-container{
+.section-container {
   gap: 4rem;
   height: 80%;
 }
 
-.section-pic-container{
+.section-pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+/*----------------- Experience Section Style -------------------*/
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: initial;
+  gap: 2.5rem;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 10rem;
+}
+
+article .icon {
+  cursor: default;
 }
