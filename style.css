@@ -382,10 +382,54 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 .project3 {
   display: block;
   width: 100%;
   height: auto;
   object-fit: cover;
   margin: 0 auto;
+}
+
+/*----------------- Contact Section Style -------------------*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-parent-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
 }
