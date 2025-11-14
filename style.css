@@ -289,7 +289,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -7rem;
+  right: -3rem;
   bottom: 2.5rem;
 }
 
@@ -436,12 +436,12 @@ article .icon {
 
 /*----------------- Footer Section Style -------------------*/
 
-footer{
+footer {
   margin: 0 1rem;
   text-align: center;
   height: 30vh;
 }
 
-footer p{
- text-align: center;
+footer p {
+  text-align: center;
 }
